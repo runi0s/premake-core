@@ -112,6 +112,7 @@
 
 		filter { 'system:windows' }
 			platforms   { 'x86', 'x64' }
+			systemversion "latest"
 
 		filter "configurations:Debug"
 			defines     "_DEBUG"
